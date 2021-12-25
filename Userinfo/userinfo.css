@@ -1,0 +1,50 @@
+.body{
+    margin-left: 155px;
+        width: 1000px;
+        height: 450px;
+        justify-content: center;
+        align-items: center;
+        background:#97B2DE;
+        margin-bottom: 1px;
+        margin-top: 40px;
+}
+.tableuserinfo{
+    margin-left: 50px;
+}
+
+
+.mr-auto{
+    margin-left: 60%;
+    font-size: medium;
+    font-style: italic;
+    font-weight: bolder;
+}
+.TitleUserIn{
+        margin-left: 50px;
+        font-size: medium;
+        font-style: italic;
+        font-weight: inherit;
+        width: 71px;
+}
+.nevebarUserInfo{
+        margin-top: 10px;
+        margin-bottom: 50px;
+        border-radius: 60px  ;
+        margin-left: 6%;
+        margin-right: 6%;
+        line-height: 1px;
+        transition: all 0.5s;
+    
+        background: linear-gradient(45deg,#C2CDD2,#9DACB9,#7CBAAD,#5E6787,#44486E);
+        z-index: 1;
+        transform: scale(1.02);
+        background-size: 500%;
+        animation: anim 40s linear infinite;
+    }
+    
+    @keyframes anim{
+        0%,100%{background-position: 2 2;}
+        50%{background-position: 300% 0;}
+    }
+
+

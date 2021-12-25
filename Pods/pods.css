@@ -1,0 +1,63 @@
+.pods-table{
+width: 1000px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.pods-table > tr > td {
+    height: 5px;
+  }
+.site-layout-background{
+    margin-left: 255px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    background:#97B2DE;
+    margin-bottom: 10px;
+    
+}
+.title-pods{
+    width: 100px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 0px;
+    display:inline-flex;
+    flex-direction: row;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+}
+.title-pods #icon{
+    flex: 5%;
+    display: grid;
+    place-items: center;
+}
+.title-pods #title{
+    flex: 95%;
+}
+
+.title-logout-pods{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 78%;
+    margin-bottom: 30px;
+    margin-top: -22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.title-logout-pods #icon{
+    flex: 3%;
+    display: grid;
+    place-items: center;
+}
+.title-logout-pods #title{
+    flex: 97%;
+}
+#searchPods{
+    width: 920px;
+    border-radius: 13px;
+     margin-bottom: 5px;
+}

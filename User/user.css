@@ -1,0 +1,81 @@
+.table.table-bordered{
+    width: 900px;
+    border:3px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        
+    }
+
+#buttonUser:disabled{
+        width: 220px;
+        margin-left: 700px;
+        margin-bottom: 5px;
+        background: lightslategrey;
+        font-size: smaller;
+        font-style: italic;
+        height: auto;
+
+    }
+#buttonUser:enabled{
+        width: 220px;
+        height: auto;
+        margin-left: 700px;
+        margin-bottom: 5px;
+        background:green;
+        font-size: medium;
+        font-style: italic;
+
+    }
+.site-layout-backgroundUser{
+        margin-left: 255px;
+        width: auto;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        background:#97B2DE;
+        margin-bottom: 10px;
+        
+    }
+.headerApplication{
+    width: 40%;
+}
+.title-user{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 78%;
+    margin-bottom: 30px;
+    margin-top: -22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.title-user #icon{
+    flex: 3%;
+    display: grid;
+    place-items: center;
+}
+.title-user #title{
+    flex: 97%;
+
+}
+.title{
+    width: 100px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 0px;
+    display:inline-flex;
+    flex-direction: row;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+}
+.title #icon{
+    flex: 5%;
+    display: grid;
+    place-items: center;
+}
+.title #title{
+    flex: 95%;
+}
+

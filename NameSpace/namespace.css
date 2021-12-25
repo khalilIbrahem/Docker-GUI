@@ -1,0 +1,38 @@
+.title-namespace{
+    width: 100px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 0px;
+    display:inline-flex;
+    flex-direction: row;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+.title-namespace #icon{
+    flex: 5%;
+    display: grid;
+    place-items: center;
+}
+.title-namespace #title{
+    flex: 95%;
+}
+.title-logout-namespace{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 85%;
+    margin-bottom: 30px;
+    margin-top: -22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.title-logout-namespace #icon{
+    flex: 3%;
+    display: grid;
+    place-items: center;
+}
+.title-logout-namespace #title{
+    flex: 97%;
+}

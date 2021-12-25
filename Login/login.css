@@ -1,0 +1,48 @@
+.login-container{
+    margin: 0 35%;
+    display: inline-block;
+    width: 30%;
+    margin-top: 121px;
+}
+.login-table{
+    width: 100%;
+}
+.login-table-first-Colum{
+    width: 25%;
+    font-size: medium;
+    font-style: italic;
+}
+.login-table-secound-Colum{
+    width: 75%;
+    border-radius: 30 30 30 30px;
+}
+.login-table-button{
+    margin-left: 100%;
+    width: 100%;
+  
+    border-radius: 12px;   
+}
+.login-table-button p{
+    font-style: italic;
+    font-size: 13px;
+    color: aliceblue;
+}
+.login-title{
+    margin-left: 50%;
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-style: italic;
+    color: aliceblue;
+}
+.login-prografe{
+    width: 280%;
+    font-size: medium;
+    font-style: italic;
+    color: aliceblue;
+}
+.login-span{
+ margin-left: 10px;
+    font-size: medium;
+    font-style: italic;
+    color:aqua;
+}

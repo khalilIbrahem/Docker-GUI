@@ -1,0 +1,36 @@
+.singup-container{
+    margin: 0 35%;
+    display: inline-block;
+    width: 30%;
+    margin-top: 121px;
+}
+.singup-table{
+    width: 100%;
+}
+.singup-table-first-Colum{
+    width: 25%;
+    font-size: medium;
+    font-style: italic;
+}
+.singup-table-secound-Colum{
+    width: 75%;
+}
+.singup-table-button{
+    margin-left: 100%; 
+}
+.singup-table-button p{
+    font-size: 13px;
+    color:aliceblue;
+    font-style: italic;  
+    
+}
+.singup-title{
+    margin-left: 50%;
+    font-size: medium;
+    font-style: italic;
+    color: aliceblue;
+    
+}
+label{
+    color :aliceblue
+}

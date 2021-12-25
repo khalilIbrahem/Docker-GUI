@@ -1,0 +1,80 @@
+.userAdmin-table{
+    width: 1000px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        
+    }
+#searchAdmin{
+        width: 900px;
+       border-radius: 13px;
+        margin-bottom: 5px;
+    }
+.site-layout-backgroundAdmin{
+        margin-left: 255px;
+        width: auto;
+        justify-content: center;
+        background:#97B2DE;
+        margin-bottom: 10px;
+        
+    }
+.headerUsersA{
+width: 40%;
+ }   
+
+.my-custom-scrollbar {
+        position: relative;
+        height: 220px;
+        overflow: auto;
+        }
+.table-wrapper-scroll-y {
+        display: block;
+        }
+.titleAdmin{
+    width: 100px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 0px;
+    display:inline-flex;
+    flex-direction: row;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+.titleAdmin #icon{
+    flex: 5%;
+    display: grid;
+    place-items: center;
+}
+.titleAdmin #title{
+    flex: 95%;
+}
+.buttonMon{
+    margin-left: 70%;
+    width: 150px;
+    font-size: medium;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    
+}
+.title-logout-admin{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 78%;
+    margin-bottom: 30px;
+    margin-top: -22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+.title-logout-admin #icon{
+    flex: 3%;
+    display: grid;
+    place-items: center;
+
+}
+.title-logout-admin #title{
+    flex: 97%;
+}
